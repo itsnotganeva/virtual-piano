@@ -115,5 +115,5 @@ const stopCorrespondOver = (event) => {
 // general event listeners
 window.addEventListener("keydown", onKeyDown);
 window.addEventListener("keyup", onKeyUp);
+window.addEventListener("mouseup", stopCorrespondOver);
 pianoContainer.addEventListener("mousedown", startCorrespondOver);
-pianoContainer.addEventListener("mouseup", stopCorrespondOver);
